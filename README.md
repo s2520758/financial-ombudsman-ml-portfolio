@@ -48,4 +48,21 @@ A comprehensive machine learning pipeline for analyzing insurance complaint deci
 - **Plots & Charts**: `matplotlib`, `seaborn`
 
 ## 📁 Project Structure
+insurance-complaint-analysis/
+├── data/
+│   ├── raw/                   # Original PDF documents
+│   ├── processed/             # Cleaned and structured data
+│   └── metadata.csv          # Complaint metadata
+├── notebooks/
+│   └── analysis.ipynb        # Main analysis notebook
+├── models/
+│   └── xgb_optimal.pkl       # Trained XGBoost model
+├── src/
+│   ├── scrape.py             # Data collection script
+│   ├── preprocess.py         # Data preprocessing
+│   └── train.py              # Model training
+└── results/
+    ├── wordclouds/           # Generated word clouds
+    ├── shap_analysis/        # Model interpretation results
+    └── performance_metrics/  # Model evaluation results
 
