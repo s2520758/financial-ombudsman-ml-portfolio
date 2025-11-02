@@ -9,7 +9,7 @@ A comprehensive machine learning pipeline for analyzing insurance complaint deci
 - **End-to-End ML Pipeline**: From raw PDF documents to actionable insights
 - **Advanced Text Processing**: NLP-powered feature extraction from complaint text
 - **Multiple Model Comparison**: Comprehensive evaluation of various classifiers
-- **SHAP Interpretability**: Explainable AI to understand model decisions
+- **SHAP Interpretability**: SHAP (SHapley Additive exPlanations) analysis to interpret model predictions
 - **Interactive Visualizations**: Word clouds and feature importance charts
 
 ## 🏆 Model Performance
