@@ -66,3 +66,38 @@ insurance-complaint-analysis/
     ├── shap_analysis/        # Model interpretation results
     └── performance_metrics/  # Model evaluation results
 
+## 🎯 Business Value
+
+This system helps:
+
+- **Insurance Companies**: Identify patterns in successful vs. unsuccessful complaints
+- **Regulatory Bodies**: Monitor complaint trends and handling effectiveness
+- **Consumers**: Understand factors that influence complaint outcomes
+- **Risk Management**: Proactively address common complaint triggers
+
+## 📈 Key Insights
+
+### Text Analysis Findings
+- Distinct vocabulary patterns between upheld and not upheld complaints
+- Specific noun phrases strongly predictive of complaint outcomes
+- Clear linguistic markers that differentiate successful complaints
+
+### Model Interpretation
+- Top features identified through SHAP analysis provide actionable insights
+- Noun-based features show highest predictive power
+- Model maintains good performance on minority class (upheld complaints)
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/insurance-complaint-analysis.git
+cd insurance-complaint-analysis
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download spaCy model
+python -m spacy download en_core_web_sm
