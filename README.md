@@ -52,19 +52,20 @@ insurance-complaint-analysis/
 ├── data/
 │   ├── raw/                   # Original PDF documents
 │   ├── processed/             # Cleaned and structured data
-│   └── metadata.csv          # Complaint metadata
+│   └── metadata.csv           # Complaint metadata (generated at runtime)
 ├── notebooks/
-│   └── analysis.ipynb        # Main analysis notebook
+│   └── analysis.ipynb         # Main analysis notebook
 ├── models/
-│   └── xgb_optimal.pkl       # Trained XGBoost model
+│   └── xgb_optimal.pkl        # Trained XGBoost model
 ├── src/
-│   ├── scrape.py             # Data collection script
-│   ├── preprocess.py         # Data preprocessing
-│   └── train.py              # Model training
+│   ├── scrape.py              # Data collection script
+│   ├── preprocess.py          # Data preprocessing
+│   └── train.py               # Model training
 └── results/
-    ├── wordclouds/           # Generated word clouds
-    ├── shap_analysis/        # Model interpretation results
-    └── performance_metrics/  # Model evaluation results
+    ├── wordclouds/            # Generated word clouds
+    ├── shap_analysis/         # Model interpretation results
+    └── performance_metrics/   # Model evaluation results
+ results
 
 ## 🎯 Business Value
 
