@@ -136,7 +136,6 @@ The notebook includes:
 - **Class Distribution:** Balanced representation of upheld vs. not upheld decisions
 - **Source:** UK Financial Ombudsman Service public decisions
 
----
 
 ## 🔍 Model Interpretation
 
@@ -147,7 +146,7 @@ The project includes comprehensive SHAP analysis to explain model predictions:
 - Violin plots showing SHAP value distributions
 - Noun-focused analysis for business interpretability
 
----
+
 
 ## 🎯 Results and Impact
 
@@ -164,13 +163,13 @@ The project includes comprehensive SHAP analysis to explain model predictions:
 - Model performance comparison charts
 - Feature distribution analysis
 
----
+
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
+
 
 ## 🙏 Acknowledgments
 
