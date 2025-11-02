@@ -107,3 +107,75 @@ pip install -r requirements.txt
 
 # Download spaCy model
 python -m spacy download en_core_web_sm
+
+## Usage
+
+Simply run the main analysis notebook:
+
+```bash
+jupyter notebook code.ipynb
+```
+
+The notebook includes:
+
+- Data scraping (using scrape.py)
+- PDF processing and text extraction
+- Data cleaning and preprocessing
+- Feature engineering with TF-IDF
+- Model training and evaluation
+- SHAP analysis and visualization
+- Word cloud generation
+
+---
+
+## 📊 Dataset
+
+- **Total Cases:** 61,127 non-empty complaint records
+- **Time Period:** 2013-2023
+- **Features:** Complaint text, company, date, insurance type, decision outcome
+- **Class Distribution:** Balanced representation of upheld vs. not upheld decisions
+- **Source:** UK Financial Ombudsman Service public decisions
+
+---
+
+## 🔍 Model Interpretation
+
+The project includes comprehensive SHAP analysis to explain model predictions:
+
+- Top predictive features identified and visualized
+- Feature importance across different complaint types
+- Violin plots showing SHAP value distributions
+- Noun-focused analysis for business interpretability
+
+---
+
+## 🎯 Results and Impact
+
+### Key Findings
+
+- **Most Predictive Features:** Identified top 3 noun features driving predictions
+- **Business Insights:** Revealed patterns in complaint language that correlate with outcomes
+- **Model Robustness:** Consistent performance across cross-validation folds
+
+### Visualizations Generated
+
+- Comparative word clouds for upheld vs. not upheld complaints
+- SHAP summary plots for feature importance
+- Model performance comparison charts
+- Feature distribution analysis
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+UK Financial Ombudsman Service for making complaint data publicly available  
+Open source community for the excellent Python data science libraries
+
+> **Note:** This project is for educational and research purposes. Always ensure compliance with data usage policies and regulations when working with real-world complaint data.
+
