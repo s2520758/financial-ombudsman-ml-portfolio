@@ -48,6 +48,8 @@ A comprehensive machine learning pipeline for analyzing insurance complaint deci
 - **Plots & Charts**: `matplotlib`, `seaborn`
 
 ## 📁 Project Structure
+
+```text
 insurance-complaint-analysis/
 ├── data/
 │   ├── raw/                   # Original PDF documents
@@ -65,6 +67,7 @@ insurance-complaint-analysis/
     ├── wordclouds/            # Generated word clouds
     ├── shap_analysis/         # Model interpretation results
     └── performance_metrics/   # Model evaluation results
+
 
 
 ## 🎯 Business Value
