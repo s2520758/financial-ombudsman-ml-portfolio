@@ -97,7 +97,7 @@ This system helps:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/insurance-complaint-analysis.git
+git clone https://github.com/s2520758/insurance-complaint-analysis.git
 cd insurance-complaint-analysis
 
 # Install dependencies
