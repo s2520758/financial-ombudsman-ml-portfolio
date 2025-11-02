@@ -52,7 +52,7 @@ insurance-complaint-analysis/
 ├── data/
 │   ├── raw/                   # Original PDF documents
 │   ├── processed/             # Cleaned and structured data
-│   └── metadata.csv           # Complaint metadata (generated at runtime)
+│   └── metadata.csv           # Complaint metadata (generated at runtime; don't commit)
 ├── notebooks/
 │   └── analysis.ipynb         # Main analysis notebook
 ├── models/
@@ -65,7 +65,7 @@ insurance-complaint-analysis/
     ├── wordclouds/            # Generated word clouds
     ├── shap_analysis/         # Model interpretation results
     └── performance_metrics/   # Model evaluation results
- results
+
 
 ## 🎯 Business Value
 
