@@ -49,24 +49,26 @@ A comprehensive machine learning pipeline for analyzing insurance complaint deci
 
 ## 📁 Project Structure
 
+
 ```text
 insurance-complaint-analysis/
-├── data/
-│   ├── raw/                   # Original PDF documents
-│   ├── processed/             # Cleaned and structured data
-│   └── metadata.csv           # Complaint metadata (generated at runtime; don't commit)
-├── notebooks/
-│   └── analysis.ipynb         # Main analysis notebook
-├── models/
-│   └── xgb_optimal.pkl        # Trained XGBoost model
-├── src/
-│   ├── scrape.py              # Data collection script
-│   ├── preprocess.py          # Data preprocessing
-│   └── train.py               # Model training
-└── results/
-    ├── wordclouds/            # Generated word clouds
-    ├── shap_analysis/         # Model interpretation results
-    └── performance_metrics/   # Model evaluation results
+├── scrape.py                    # Data collection & web scraping script
+├── analysis.ipynb               # Complete ML pipeline notebook
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project documentation
+│
+├── data/                        # Generated during execution
+│   ├── raw/                     # Downloaded PDF documents
+│   ├── processed/               # Cleaned and structured data
+│   └── metadata.csv             # Complaint metadata (auto-generated)
+│
+├── models/                      # Generated during execution  
+│   └── xgb_optimal.pkl          # Trained XGBoost model
+│
+└── results/                     # Generated during execution
+    ├── wordclouds/              # NLP visualization outputs
+    ├── shap_analysis/           # Model interpretation results
+    └── performance_metrics/     # Evaluation metrics and charts
 
 ```
 
